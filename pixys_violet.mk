@@ -23,6 +23,12 @@ PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 TARGET_BOOT_ANIMATION_RES:=1080
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 BUILD_FINGERPRINT := "xiaomi/violet/violet:9/PKQ1.181203.001/V10.3.9.0.PFHINXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
