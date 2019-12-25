@@ -1,3 +1,4 @@
+LOCAL_PATH := $(call my-dir)
 #Crimson
 CAL_MODULE := Crimson
 LOCAL_MODULE_TAGS := optional
@@ -9,7 +10,6 @@ LOCAL_PRIVILEGED_MODULE := true
 
 
 #GoogleCamera
-LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleCamera
@@ -35,7 +35,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 
 #Contacts
-LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Contacts
