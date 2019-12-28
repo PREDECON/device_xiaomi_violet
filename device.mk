@@ -393,8 +393,7 @@ PRODUCT_PACKAGES += \
 
 # Preopt 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    Launcher3Quickstep
+    SystemUI
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
