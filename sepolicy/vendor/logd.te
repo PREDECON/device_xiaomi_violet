@@ -1,6 +1,0 @@
- allow logd rootfs:file { entrypoint };
- allow logd rootfs:file { map};
-
- allow logd rootfs:file { read execute};
- allow logd rootfs:file { getattr};
- allow logd rootfs:file {open};
