@@ -1,0 +1,8 @@
+allow init kernels:security { setcheckreqport };
+allow init init:capability { dac_read_search };
+allow init init:capability { dac_read_search };
+allow init init:capability { dac_read_search };
+allow init init:capability { dac_read_search };
+allow init rootfs:file { create };
+
+allow init init:capability { dac_read_search};
