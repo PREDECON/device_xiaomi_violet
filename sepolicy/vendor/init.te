@@ -1,4 +1,4 @@
-allow init kernel:security { setcheckreqport };
+allow init kernel:security { setcheckreqprot };
 allow init init:capability { dac_read_search };
 allow init init:capability { dac_read_search };
 allow init init:capability { dac_read_search };

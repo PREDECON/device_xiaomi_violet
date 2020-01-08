@@ -1,1 +1,1 @@
-  allow recovery recovery:net_link_kobject_uevent_socket {read};
+  allow recovery recovery:netlink_kobject_uevent_socket {read};
