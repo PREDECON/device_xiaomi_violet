@@ -1,11 +1,13 @@
 [
-{
-"repository": "kernel_xiaomi_sm6150",
-    "target_path": "kernel/xiaomi/sm6150"
+  {
+    "repository": "kernel_xiaomi_sm6150",
+    "target_path": "kernel/xiaomi/sm6150",
+    "branch": "ten"
   },
   {
     "repository": "vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet"
+    "target_path": "vendor/xiaomi/violet",
+    "branch": "ten"
   },
   {
     "repository": "android_packages_resources_devicesettings",
@@ -14,9 +16,8 @@
     "remote": "lineage"
   },
   {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
+    "repository": "device_xiaomi_violet",
+    "target_path": "device/xiaomi/violet",
+    "branch": "ten"
   }
 ]
