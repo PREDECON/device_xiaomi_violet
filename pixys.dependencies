@@ -14,10 +14,5 @@
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-17.0",
     "remote": "lineage"
-  },
-  {
-    "repository": "device_xiaomi_violet",
-    "target_path": "device/xiaomi/violet",
-    "branch": "ten"
   }
 ]
